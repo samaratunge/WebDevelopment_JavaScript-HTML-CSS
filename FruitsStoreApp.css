@@ -1,0 +1,91 @@
+h1{
+  align-content: center;
+  font-weight: bold;
+  color: brown;
+}
+body{
+  width: 100%;
+  height: 500px;
+  background-image: url("./images/Fruits-bg.jpg");  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ol{
+  font-weight: bold;
+  font-style: italic;
+  box-sizing: content-box;
+  text-wrap: balance;  
+}
+
+table, th, td{
+    background: palegoldenrod;
+    border-color: white;
+    border: 2px solid;    
+    border-radius: 2%;   
+    align-content: center;
+    column-width: 120px;
+}
+th{
+    width: auto;
+}
+thead{
+    text-align: center;
+    font-size: medium;
+    font: #000;
+    font-weight: bold;
+}
+ul li {
+    font-size: medium;
+    font-weight: bold;
+    text-indent: 2%;    
+    display: inline;
+}
+select{
+    background: palegoldenrod;
+}
+input{
+    background: palegoldenrod;
+}
+
+button {
+    background-color: #e1ecf4;
+    border-radius: 3px;
+    border: 1px solid #7aa7c7;
+    box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #39739d;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1.15385;
+    margin: 0;
+    outline: none;
+    padding: 8px .8em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+  }
+  
+  button:hover,
+  button:focus {
+    background-color: #a0c7e4;
+    color: black;
+  }
+  
+  button:focus {
+    box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+  }
+  
+  button:active {
+    background-color: #a0c7e4;
+    box-shadow: none;
+    color: black;
+  }

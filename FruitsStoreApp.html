@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>    
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="FruitsStoreApp.css">
+        <title>Udara Samaratunge Fruits Store</title>
+    </head>    
+    <body>        
+    <div align="center">
+        <h1><img height="70" width="70" src="./images/fruitbasket.gif"/> Udara Samaratunge Fruits Store
+        <img height="70" width="70" src="./images/fruitbasket.gif"/></h1>
+    </div>
+    <div>
+        <h3>You can store your fruit items easily in Udara Samaratunge Fruit Store</h3>
+        <div id="Description">
+        </div>
+        <ol>
+            <li>This maintains inventory of fruit items such as Apples, Bananas, Oranges, Mangoes, and Pineapples</li>
+            <li>You can enter unit price and quantity, then it automatically calculates the Amount of each fruit</li>
+            <li>At the end you can display the Grand Total of Inventory Fruits</li>               
+        </ol>
+        <ul>
+            <li>Apple <img height="40" width="40" src="./images/Apple.png" /></li>
+            <li>Banana <img height="40" width="40" src="./images/Banana.png" /></li>
+            <li>Orange <img height="40" width="40" src="./images/Orange.png" /></li>
+            <li>Mango <img height="40" width="40" src="./images/Mango.png" /></li>
+            <li>Pineapple <img height="40" width="40" src="./images/Pineapple.png" /></li>
+        </ul>
+    </div>
+    <div>
+        <table>
+            <thead>
+                <td>Index</td>
+                <td>Select Fruit</td>
+                <td>Fruit</td>
+                <td>Unit Price</td>
+                <td>Unit</td>
+                <td>Quantity</td>
+                <td>Amount</td>
+            </thead>
+            <tbody id="tbody">
+            </tbody>
+        </table>
+    </div>
+    <button id="add" onclick="addRow()"> Add Fruit Items </button>
+    <button id="display" onclick="getTotal()"> Display Grand Total </button>
+    <br><br>
+    <div>
+        <table id="Gtotal" style="display: none">
+            <tr><td style="border: 0px;">The Grand Total of Inventory Fruits = </td>
+                <td id="total" style="border: 0px;"></td>
+            </tr>
+        </table>
+    </div>
+    <p style="font-style: italic;">
+        Created by Author <a href="https://www.linkedin.com/in/udarasamaratunge/"> Udara Samaratunge </a> © 2024 
+    </p>
+</body>
+<script type="text/javascript" src="FruitsStoreApp.js"></script>
+</html>
